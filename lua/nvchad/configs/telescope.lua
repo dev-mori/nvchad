@@ -1,3 +1,5 @@
+dofile(vim.g.base46_cache .. "telescope")
+
 local options = {
   defaults = {
     vimgrep_arguments = {
@@ -49,6 +51,10 @@ local options = {
   },
 
   extensions_list = { "themes", "terms" },
+<<<<<<< HEAD:lua/plugins/configs/telescope.lua
+=======
+  extensions = {},
+>>>>>>> 46088dd73e63995ac3f01e5a019f96c524307d57:lua/nvchad/configs/telescope.lua
 }
 
 return options
